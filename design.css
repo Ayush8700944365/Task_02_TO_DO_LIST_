@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kaushan+Script&family=Lobster&family=Orbitron:wght@900&family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
+  
+  .todo-container {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #ff00d9;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+    background-color:blue;
+
+  }
+  h1{
+    font-family: Lobster;
+    font-size: 120px;
+    padding-top: 0px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQk8R5j0_NazbF0KkD7CkooQodlbgy5Apfw&usqp=CAU')
+
+  }
+  h1:hover{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw-HRak_xPPd0mNngK11y2sH5TfJ-OhDAlUA&usqp=CAU');
+     
+    
+  }
+#taskList{
+    text-decoration: none;
+    background:rgb(228, 9, 9);
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
+input{
+    width: 300px;
+    border-radius: 20px;
+}
+
+button{
+    border-radius: 30px;
+}
+ul{
+    border-radius: 10px;
+}
+ 
